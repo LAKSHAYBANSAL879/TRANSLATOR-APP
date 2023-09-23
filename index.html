@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY-TRANSLATOR</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>WELCOME TO MY TRANSLATOR</h1>
+      <div class="col">
+        <div class="mainContent">
+        <div class="textToTranslate">
+          <div class="text-input">
+            <textarea
+              name="translate"
+              id="translate"
+              cols="45"
+              rows="20"
+              placeholder="ENTER TEXT TO TRANSLATE"
+            ></textarea>
+            
+          </div>
+          <div class="controls">
+                <ul class="control">
+                    <li class="row from">
+                        <div class="icons">
+                            <i id="from" class="fa-solid fa-volume-high fa-xl"></i>
+                            <i id="from" class="fas fa-copy fa-xl" ></i>
+                        </div>
+                        <div>
+                            <select></select>
+                        </div>
+                    </li>
+                   
+                </ul>
+          </div>
+
+
+        </div>
+        <li class="exchange" id="exchange"><i id="exchange" class="fas fa-exchange-alt fa-xl"></i></li>
+
+          <div class="translatedText">
+            <div class="text-input">
+              <textarea
+                name="translated"
+                id="translated"
+                cols="45"
+                rows="20"
+                placeholder="TRANSLATED TEXT"
+                readonly disabled
+              ></textarea>
+            </div>
+            <div class="controls">
+                <ul class="control">
+                    <li class="row from">
+                        <div class="icons">
+                            <i id="to" class="fa-solid fa-volume-high fa-xl"></i>
+                            <i id="to" class="fas fa-copy fa-xl" ></i>
+                        </div>
+                        <div>
+                            <select></select>
+                        </div>
+                    </li>
+                </ul>
+
+
+          </div>
+  
+
+          </div>
+        </div>
+        <button class="tbtn" id="btn">TRANSLATE TEXT</button>
+      </div>
+      
+    </div>
+    <script src="js/index.js"></script>
+    <!-- <script src="js/countries.js"></script> -->
+    <script
+      src="https://kit.fontawesome.com/8c9b0ad18f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
